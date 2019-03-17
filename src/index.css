@@ -105,3 +105,29 @@ li a {
   padding: 5px 10px;
   text-transform: uppercase;
 }
+
+.background-picture {
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.listings {
+  opacity: 0.3;
+}
+
+.welcome-text {
+  margin: 50px;
+  position: relative;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+}

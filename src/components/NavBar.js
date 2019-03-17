@@ -22,7 +22,7 @@ function NavBar(props) {
           </NavLink>
         </li>
         <li class="nav-li">
-          <NavLink className="nav-link" to="/">
+          <NavLink className="nav-link" to="/contact_us">
             Contact Us
           </NavLink>
         </li>

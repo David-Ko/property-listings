@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ListingsData from "../mock-listing-data.json";
 import "../../src/index.css";
 import { Button } from "react-bootstrap";
+import picture from "../assets/images/home.jpg";
 
 class Listings extends Component {
   constructor(props) {
@@ -126,6 +127,7 @@ class Listings extends Component {
             </div>
           ))}
         </div>
+        <img className="background-picture listings" src={picture} alt="" />
       </>
     );
   }
