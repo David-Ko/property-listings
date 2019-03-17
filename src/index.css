@@ -12,3 +12,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.children {
+  padding: 15px;
+  margin: 10px;
+  height: 500px;
+  width: 450px;
+  text-align: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.grandchildren {
+  padding: 15px;
+  margin: 10px;
+  height: 500px;
+  width: 450px;
+  text-align: center;
+  position: relative;
+  justify-content: space-evenly;
+  border: solid 2px darkorange;
+  border-radius: 15px;
+}
+
+.bottom.inner-div {
+  height: 50%;
+  overflow: scroll;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.inner-div {
+  height: 50%;
+}
+
+.detail-list {
+  list-style-type: none;
+}
+
+.sort-menu {
+  justify-content: space-evenly;
+}
+
+.sort-menu-item {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-left: 30px;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+#nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkorange;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.custom-btn {
+  background: #fff;
+  color: darkorange;
+  border: 2px solid darkorange;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
