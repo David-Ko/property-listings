@@ -6,27 +6,22 @@ function NavBar(props) {
   return (
     <>
       <ul id="nav-ul">
-        <li class="nav-li">
+        <li className="nav-li">
           <NavLink className="nav-link" to="/">
             REBCA
           </NavLink>
         </li>
-        <li class="nav-li">
+        <li className="nav-li">
           <NavLink className="nav-link" to="/">
             Home
           </NavLink>
         </li>
-        <li class="nav-li">
+        <li className="nav-li">
           <NavLink className="nav-link" to="/listings">
             Listings
           </NavLink>
         </li>
-        <li class="nav-li">
-          <NavLink className="nav-link" to="/contact_us">
-            Contact Us
-          </NavLink>
-        </li>
-        <li class="nav-li">
+        <li className="nav-li">
           <NavLink className="nav-link" to="/">
             About Us
           </NavLink>

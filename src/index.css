@@ -73,6 +73,11 @@ h1 {
   margin-left: 30px;
 }
 
+.pagination {
+  background: black;
+  margin-top: 20px;
+}
+
 #nav-ul {
   list-style-type: none;
   margin: 0;
